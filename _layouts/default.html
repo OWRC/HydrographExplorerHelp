@@ -45,19 +45,24 @@
         border: none;
         box-shadow: none;
       }
-    </style> 
+    </style>
     <style id="font-size">
       p.title {
         font-size: 50px;
         font-weight: bold;
       }
-    </style> 
+    </style>
     <style id="font-size">
       p.subtitle {
         font-size: 30px;
         font-weight: bold;
       }
-    </style>          
+    </style>
+    <style id="inner-width">
+      .inner {
+        max-width: 800px;
+      }
+    </style>
   </head>
 
   <body onload="setModifiedDate();">
@@ -84,11 +89,11 @@
     </div>
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">    
+    <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <p class="title">{{ page.title }}</p>
         <p class="subtitle">{{ page.subtitle }}</p>
-        {{ content }}        
+        {{ content }}
       </section>
     </div>
 
