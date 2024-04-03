@@ -57,11 +57,11 @@ Once a location is selected and the user clicks _analyze monitoring data_, a new
 _Figure 4: ORMGP Hydrograph Tools_
 
 In the sHydrograph browser window, one or more X-Y graphs will shown, depending on what data is available for the selected location. For this example (Nobleton PW 3), three graphs are shown: 
-1. Precipitation (rainfall and snowmelt [interpolated to the well location](/interpolants/interpolation/daily.html))
+1. Precipitation (rainfall and snowmelt [interpolated to the well location](https://owrc.github.io/interpolants/fews/climate-interpolation.html))
 2. Production (in this case, PW 3 represents a pumping well)
 3. Water levels (both static (point data) and logger (line data) are shown)
 The data shown in these graphs can be toggled off or on using the check boxes on the left menu. 
 
-For these hydrographs, precipitation ([rainfall](/interpolants/sources/sources.html){:target="_blank"} and [snowmelt](/interpolants/modelling/waterbudget/data.html#sub-daily-from-daily-snowmelt){:target="_blank"}) and [air pressure](/interpolants/interpolation/barometry.html){:target="_blank"} data are interpolated from nearby meteorological stations. The remaining data (pumping rates/production and water levels) are from the ORMGP database.
+For these hydrographs, precipitation ([rainfall](https://owrc.github.io/interpolants/sources/reference.html){:target="_blank"} and [snowmelt](/interpolants/modelling/waterbudget/data.html#sub-daily-from-daily-snowmelt){:target="_blank"}) and [air pressure](/interpolants/interpolation/barometry.html){:target="_blank"} data are interpolated from nearby meteorological stations. The remaining data (pumping rates/production and water levels) are from the ORMGP database.
 
 
